@@ -1,12 +1,28 @@
-- 👋 Hi, I’m @Vishalkumar212112
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
-<!---
-Vishalkumar212112/Vishalkumar212112 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+print("W_e~l*c(o)m[e] ")
+print("python calculator")
+print("Addition '+' ")
+print("Subtraction '-' ")
+print("Multiplication '*' ")
+print("Division '/' ")
+
+
+num1 = float(input("Enter the number: "))
+opr = input("Enter the opertor ")
+num2 = float(input("Enter the number: "))
+
+
+if opr == "+":
+    print("Result: ", num1 + num2)
+elif opr == "-":
+    print("Result: ", num1 - num2)
+elif opr == "*":
+    print("Result: ", num1 * num2   ) 
+elif opr == "/":
+    print("Result: ", num1 / num2 )
+
+
+else:
+    print("Invalid operator ")
+
+
